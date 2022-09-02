@@ -1,0 +1,24 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Home>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+<div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('/assets/img/bg0.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+          <div class="brand">
+            <h1>@Model.Title
+              <span class="pro-badge">
+                Pro
+              </span>
+            </h1>
+            <h3 class="title">All Components </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
