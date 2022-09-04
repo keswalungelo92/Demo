@@ -1,0 +1,8 @@
+{
+  "id": "f39bc6f6-cd77-4393-9574-f643aca64a5d",
+  "name": "ProvincesSA",
+  "settings": {
+    "TextFile": "PreValueTextFiles/37ddcd12-eba5-4e23-8188-349c2c229dbe/provincessa.txt"
+  },
+  "fieldPreValueSourceTypeId": "35c2053e-cbf7-4793-b27c-6e97b7671a2d"
+}

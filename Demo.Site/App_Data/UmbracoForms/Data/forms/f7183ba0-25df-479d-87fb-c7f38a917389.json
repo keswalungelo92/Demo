@@ -1,0 +1,1292 @@
+{
+  "name": "Test Form",
+  "created": "2022-07-22T11:11:35.0489837+02:00",
+  "pages": [
+    {
+      "fieldSets": [
+        {
+          "caption": "Your Details",
+          "sortOrder": 0,
+          "id": "00000000-0000-0000-0000-000000000000",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": null,
+              "width": 12,
+              "fields": [
+                {
+                  "caption": "Name",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "name",
+                  "id": "f6718dda-0e45-48f9-bf8f-ecfe8a500a9e",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Surname",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "surname",
+                  "id": "f80a98f0-99e1-4abf-e907-95102eb31a9c",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Mobile",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "mobile",
+                  "id": "0812460c-28ab-4e13-f771-1099653f286f",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": true,
+                  "mandatory": true,
+                  "regex": "",
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Email",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "email",
+                  "id": "c9204231-7756-4e10-cb50-60870fb4bb73",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Business Name",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "businessName",
+                  "id": "c67d4f56-6c3d-4e7d-d7e6-6e9fa01ab9b6",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Address",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "address",
+                  "id": "d69e4ea5-4957-4b27-f572-cae872e2dc75",
+                  "fieldTypeId": "023f09ac-1445-4bcb-b8fa-ab49f33bd046",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": "",
+                    "NumberOfRows": "2"
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Country",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "country",
+                  "id": "67b4524e-c2e7-422e-86d0-b43fba710dd1",
+                  "fieldTypeId": "0dd29d42-a6a5-11de-a2f2-222256d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "AllowMultipleSelections": ""
+                  },
+                  "preValues": [
+                    "SOUTH AFRICA - SUID AFRIKA",
+                    "NAMIBIA -NAMIBIE",
+                    "BOTSWANA - BOTSWANA"
+                  ],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Province",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "provinceSA",
+                  "id": "e2bd9ddc-97e0-45b5-d109-71fd11aa87e8",
+                  "fieldTypeId": "0dd29d42-a6a5-11de-a2f2-222256d89593",
+                  "prevalueSourceId": "f39bc6f6-cd77-4393-9574-f643aca64a5d",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": true,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": [
+                      {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "field": "67b4524e-c2e7-422e-86d0-b43fba710dd1",
+                        "operator": "Is",
+                        "value": "SOUTH AFRICA - SUID AFRIKA"
+                      }
+                    ]
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "AllowMultipleSelections": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Province",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "provinceNam",
+                  "id": "439e6713-fc95-47ac-e7ff-f8eb33c802eb",
+                  "fieldTypeId": "0dd29d42-a6a5-11de-a2f2-222256d89593",
+                  "prevalueSourceId": "e7b5bbc1-3499-4bee-9a79-0b126c65df34",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": true,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": [
+                      {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "field": "67b4524e-c2e7-422e-86d0-b43fba710dd1",
+                        "operator": "Is",
+                        "value": "NAMIBIA -NAMIBIE"
+                      }
+                    ]
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "AllowMultipleSelections": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Which Sub-province are you from",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "subprovince_freestate",
+                  "id": "08aaf4f8-48a7-47ba-829a-a9ebe15d8f65",
+                  "fieldTypeId": "0dd29d42-a6a5-11de-a2f2-222256d89593",
+                  "prevalueSourceId": "4e816a4f-408c-47af-bf63-6c7316e295b4",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": true,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": [
+                      {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "field": "e2bd9ddc-97e0-45b5-d109-71fd11aa87e8",
+                        "operator": "Is",
+                        "value": "Free State - Vrystaat"
+                      }
+                    ]
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "AllowMultipleSelections": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Which Sub-province are you from",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "subprovince_northerncape",
+                  "id": "36dbbff5-4e4d-4588-9e1f-a8a0c931eff5",
+                  "fieldTypeId": "0dd29d42-a6a5-11de-a2f2-222256d89593",
+                  "prevalueSourceId": "b9dd568c-b85b-4721-8074-d0e1cf174183",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": true,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": [
+                      {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "field": "e2bd9ddc-97e0-45b5-d109-71fd11aa87e8",
+                        "operator": "Is",
+                        "value": "Northern Cape - Noord-Kaap"
+                      }
+                    ]
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "AllowMultipleSelections": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Language",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "language",
+                  "id": "54288ba5-8acd-49bd-88e7-289c455389f4",
+                  "fieldTypeId": "903df9b0-a78c-11de-9fc1-db7a56d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": [
+                    "English",
+                    "Afrikaans"
+                  ],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                }
+              ]
+            }
+          ],
+          "condition": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "enabled": false,
+            "actionType": "Show",
+            "logicType": "All",
+            "rules": []
+          }
+        },
+        {
+          "caption": "",
+          "sortOrder": 0,
+          "id": "14bddd67-9241-4884-95a2-5f87f2bb9341",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": "",
+              "width": 12,
+              "fields": [
+                {
+                  "caption": "Do you know the specifications of your calves for sale?",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "DoYouKnowEng",
+                  "id": "64159341-c994-4cef-fad3-edfd677b6ded",
+                  "fieldTypeId": "903df9b0-a78c-11de-9fc1-db7a56d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": [
+                    "Yes",
+                    "No"
+                  ],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                }
+              ]
+            }
+          ],
+          "condition": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "enabled": true,
+            "actionType": "Show",
+            "logicType": "All",
+            "rules": [
+              {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "field": "54288ba5-8acd-49bd-88e7-289c455389f4",
+                "operator": "Is",
+                "value": "English"
+              }
+            ]
+          }
+        },
+        {
+          "caption": "Cattle Details",
+          "sortOrder": 0,
+          "id": "0dc14068-1ea9-44db-da29-e4b0e051293b",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": "",
+              "width": 12,
+              "fields": [
+                {
+                  "caption": "Number of cattle",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "numberOfCattle",
+                  "id": "1ec94357-1858-4f71-da04-6039c5b605f4",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Breed",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "breed",
+                  "id": "440b56b2-1d2c-4764-a689-80118a727269",
+                  "fieldTypeId": "0dd29d42-a6a5-11de-a2f2-222256d89593",
+                  "prevalueSourceId": "a42ac949-17ed-4071-afaa-028a64ce92ed",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "AllowMultipleSelections": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Estimate weight",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "estimateWeight",
+                  "id": "ab3e2dab-e1c9-4847-c77c-9d3c5bf89f7d",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": "^[0-9]*$",
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "0",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Age",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "age",
+                  "id": "42632f42-706e-44ab-d12c-69add277fcf1",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": "^[0-9]*$",
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "0",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Sex ration",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "sexRation",
+                  "id": "058e4d69-bc62-47a0-9597-cc0735464b76",
+                  "fieldTypeId": "903df9b0-a78c-11de-9fc1-db7a56d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": [
+                    "50/50%",
+                    "60/40%",
+                    "70/30%",
+                    "100% Male"
+                  ],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Is this",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "isThis",
+                  "id": "0aff952b-b0e1-4511-a2f9-b4766898fbd8",
+                  "fieldTypeId": "903df9b0-a78c-11de-9fc1-db7a56d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": [
+                    "Weaned",
+                    "Not Weaned"
+                  ],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Photo/Video",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "photoVideo",
+                  "id": "610c2665-32f1-4914-d33c-1a7624a40d0a",
+                  "fieldTypeId": "84a17cf8-b711-46a6-9840-0e4a072ad000",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {},
+                  "preValues": [],
+                  "allowedUploadTypes": [
+                    {
+                      "Type": "",
+                      "Name": "Allow all files",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "pdf",
+                      "Name": "PDF",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "docx",
+                      "Name": "DOCX",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "xlsx",
+                      "Name": "XLSX",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "txt",
+                      "Name": "TXT",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "png",
+                      "Name": "PNG",
+                      "Checked": "true"
+                    },
+                    {
+                      "Type": "jpg",
+                      "Name": "JPG",
+                      "Checked": "true"
+                    },
+                    {
+                      "Type": "gif",
+                      "Name": "GIF",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "avi",
+                      "Name": "AVI",
+                      "Checked": null
+                    },
+                    {
+                      "Type": "mp4",
+                      "Name": "MP4",
+                      "Checked": null
+                    },
+                    {
+                      "Type": "jpeg",
+                      "Name": "JPEG",
+                      "Checked": null
+                    }
+                  ],
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Backgrounded  - Allowed to graze on pastures with supplementary feed for a period of between 30-60 days",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "backgrounded",
+                  "id": "295821d4-8d92-453f-a271-dc70f00b9cd2",
+                  "fieldTypeId": "903df9b0-a78c-11de-9fc1-db7a56d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": [
+                    "Yes",
+                    "No"
+                  ],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Comments",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "comments",
+                  "id": "4588b3ac-6931-468b-9c7c-60cabd8b86ac",
+                  "fieldTypeId": "023f09ac-1445-4bcb-b8fa-ab49f33bd046",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "NumberOfRows": "2",
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                }
+              ]
+            }
+          ],
+          "condition": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "enabled": true,
+            "actionType": "Show",
+            "logicType": "All",
+            "rules": [
+              {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "field": "64159341-c994-4cef-fad3-edfd677b6ded",
+                "operator": "Is",
+                "value": "Yes"
+              }
+            ]
+          }
+        },
+        {
+          "caption": "",
+          "sortOrder": 0,
+          "id": "b4b46a81-7a7d-4a15-ef99-c17e2e72ac6e",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": "",
+              "width": 12,
+              "fields": [
+                {
+                  "caption": "Het jy die nodige spesifikasies van jou kalwers te koop",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "doYouKnowAfrik",
+                  "id": "8e5df74c-7708-4864-d602-12df4c83b419",
+                  "fieldTypeId": "903df9b0-a78c-11de-9fc1-db7a56d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": [
+                    "Ya",
+                    "Nee"
+                  ],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                }
+              ]
+            }
+          ],
+          "condition": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "enabled": true,
+            "actionType": "Show",
+            "logicType": "All",
+            "rules": [
+              {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "field": "54288ba5-8acd-49bd-88e7-289c455389f4",
+                "operator": "Is",
+                "value": "Afrikaans"
+              }
+            ]
+          }
+        },
+        {
+          "caption": "Beeste Besonderhede",
+          "sortOrder": 0,
+          "id": "2ff50cf5-f9e5-474e-a37a-69c3fc80794d",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": "",
+              "width": 12,
+              "fields": [
+                {
+                  "caption": "Aantal Beeste",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "aantalBeeste",
+                  "id": "dc62f65d-a962-4d4b-e3a6-6661324eec51",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Ras",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "ras",
+                  "id": "593eb7fb-7900-4697-8c65-42bc720d35b2",
+                  "fieldTypeId": "0dd29d42-a6a5-11de-a2f2-222256d89593",
+                  "prevalueSourceId": "a42ac949-17ed-4071-afaa-028a64ce92ed",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "AllowMultipleSelections": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Geskatte Gewig",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "geskatteGewig",
+                  "id": "7e60ef25-7a13-41be-a7ee-91f3a6a8ba9a",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": "^[0-9]*$",
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "0",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Ouderdom",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "ouderdom",
+                  "id": "69a92c2c-7776-48b3-af04-4dee18b7d822",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": "^[0-9]*$",
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "0",
+                    "Placeholder": ""
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Geslagsverhouding",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "geslagsverhouding",
+                  "id": "2c8c708d-6dc0-40c2-85ea-9d821c0951e3",
+                  "fieldTypeId": "903df9b0-a78c-11de-9fc1-db7a56d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": [
+                    "50/50%",
+                    "60/40%",
+                    "70/30%",
+                    "100%"
+                  ],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Is dit",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "isdit",
+                  "id": "02fc1d54-d9f2-4ce4-d74d-182df5d40859",
+                  "fieldTypeId": "903df9b0-a78c-11de-9fc1-db7a56d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": [
+                    "Gespeen",
+                    "Nie Gespeen"
+                  ],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Foto/Video",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "fotoVideo",
+                  "id": "1d10c56d-33b2-4581-dca7-7c8c6ae246d4",
+                  "fieldTypeId": "84a17cf8-b711-46a6-9840-0e4a072ad000",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {},
+                  "preValues": [],
+                  "allowedUploadTypes": [
+                    {
+                      "Type": "",
+                      "Name": "Allow all files",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "pdf",
+                      "Name": "PDF",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "docx",
+                      "Name": "DOCX",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "xlsx",
+                      "Name": "XLSX",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "txt",
+                      "Name": "TXT",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "png",
+                      "Name": "PNG",
+                      "Checked": "true"
+                    },
+                    {
+                      "Type": "jpg",
+                      "Name": "JPG",
+                      "Checked": "true"
+                    },
+                    {
+                      "Type": "gif",
+                      "Name": "GIF",
+                      "Checked": "false"
+                    },
+                    {
+                      "Type": "jpeg",
+                      "Name": "JPEG",
+                      "Checked": null
+                    },
+                    {
+                      "Type": "avi",
+                      "Name": "AVI",
+                      "Checked": null
+                    },
+                    {
+                      "Type": "mp4",
+                      "Name": "MP4",
+                      "Checked": null
+                    }
+                  ],
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Backgrounded - Beeste wat eers op die veld gevoer het tussen 30-60 dae",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "backafrik",
+                  "id": "4d860b52-0dac-4d7c-ebde-9e1ff3d1cd87",
+                  "fieldTypeId": "903df9b0-a78c-11de-9fc1-db7a56d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": [
+                    "Ja",
+                    "Nee"
+                  ],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                },
+                {
+                  "caption": "Aanmerkings",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "aanmerkings",
+                  "id": "fa5ea125-2f35-4ce6-ef4e-56acd4c284df",
+                  "fieldTypeId": "023f09ac-1445-4bcb-b8fa-ab49f33bd046",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "containsSensitiveData": false,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": "",
+                    "NumberOfRows": "2"
+                  },
+                  "preValues": [],
+                  "allowedUploadTypes": null,
+                  "allowMultipleFileUploads": true
+                }
+              ]
+            }
+          ],
+          "condition": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "enabled": true,
+            "actionType": "Show",
+            "logicType": "All",
+            "rules": [
+              {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "field": "8e5df74c-7708-4864-d602-12df4c83b419",
+                "operator": "Is",
+                "value": "Ya"
+              }
+            ]
+          }
+        }
+      ],
+      "caption": "",
+      "sortOrder": 0,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "form": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "id": "f7183ba0-25df-479d-87fb-c7f38a917389",
+  "fieldIndicationType": "MarkMandatoryFields",
+  "indicator": "*",
+  "showValidationSummary": false,
+  "hideFieldValidation": false,
+  "requiredErrorMessage": "Please provide a value for {0}",
+  "invalidErrorMessage": "Please provide a valid value for {0}",
+  "messageOnSubmit": "Thank you",
+  "goToPageOnSubmit": 0,
+  "xPathOnSubmit": null,
+  "manualApproval": false,
+  "storeRecordsLocally": true,
+  "cssClass": null,
+  "disableDefaultStylesheet": false,
+  "useClientDependency": false,
+  "workflows": [
+    "077afad9-46cf-4662-8e82-ee96ceafd86d"
+  ],
+  "datasource": null,
+  "submitLabel": "Submit",
+  "nextLabel": "Next",
+  "prevLabel": "Prev"
+}

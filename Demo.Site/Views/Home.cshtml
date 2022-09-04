@@ -5,7 +5,231 @@
 	Layout = "Master.cshtml";
 }
 
-<div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('/assets/img/bg0.jpg');">
+@Html.GetGridHtml(Model, "pageModules", "Bootstrap3-Fluid")
+
+<div class="header-3">
+    
+        <!-- Carousel Card -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="page-header header-filter" style="background-image: url('./assets/img/dg1.jpg');">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 text-left">
+                      <h1 class="title">Material Kit PRO</h1>
+                      <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
+                      <br>
+                      <div class="buttons">
+                        <a href="#pablo" class="btn btn-danger btn-lg">
+                          Read More
+                        </a>
+                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link">
+                          <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link">
+                          <i class="fa fa-get-pocket"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="page-header header-filter" style="background-image: url('./assets/img/dg2.jpg');">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                      <h1 class="title">Material Kit PRO</h1>
+                      <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
+                      <br>
+                      <h6>Connect with us on:</h6>
+                      <div class="buttons">
+                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
+                          <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
+                          <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="page-header header-filter" style="background-image: url('./assets/img/dg3.jpg');">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-7 ml-auto text-right">
+                      <h1 class="title">New Collection 50% Off</h1>
+                      <h4>There's no doubt that Tesla is delighted with the interest, but the data also raises a few questions. How long will it take for Tesla to fulfill all those extra orders?</h4>
+                      <br>
+                      <div class="buttons">
+                        <a href="#pablo" class="btn btn-white btn-link btn-lg">
+                          <i class="material-icons">share</i> Share Offer
+                        </a>
+                        <a href="#pablo" class="btn btn-danger btn-lg">
+                          <i class="material-icons">shopping_cart</i> Shop Now
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <i class="material-icons">keyboard_arrow_left</i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <i class="material-icons">keyboard_arrow_right</i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- End Carousel Card -->
+      </div>
+
+      <div class="cd-section" id="features">
+      <div class="container">
+        <!--     *********     FEATURES 1      *********      -->
+     
+        <!--     *********    END FEATURES 1      *********      -->
+        <!--     *********     FEATURES 2      *********      -->
+       
+        <!--     *********    END FEATURES 2      *********      -->
+        <!--     *********     FEATURES 3      *********      -->
+        <div class="features-3">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="phone-container">
+                <img src="./assets/img/sections/iphone.png">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <!-- Some <br /> tags to push the text to align with the image, you can remove it if you have more text on the right side :-) -->
+              <h2 class="title">Your life will be much easier</h2>
+              <div class="info info-horizontal">
+                <div class="icon icon-primary">
+                  <i class="material-icons">extension</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Hundreds of Components</h4>
+                  <p>The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+                </div>
+              </div>
+              <div class="info info-horizontal">
+                <div class="icon icon-primary">
+                  <i class="material-icons">child_friendly</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Easy to Use</h4>
+                  <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                </div>
+              </div>
+              <div class="info info-horizontal">
+                <div class="icon icon-primary">
+                  <i class="material-icons">watch_later</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Fast Prototyping</h4>
+                  <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--     *********    END FEATURES 3      *********      -->
+        <!--     *********     FEATURES 4      *********      -->
+        
+        <!--     *********    END FEATURES 4      *********      -->
+      </div>
+      <!--     *********     FEATURES 5      *********      -->
+      <div class="features-5" style="background-image: url('./assets/img/bg9.jpg')">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h2 class="title">Your life will be much easier</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="info">
+                <div class="icon">
+                  <i class="material-icons">code</i>
+                </div>
+                <h4 class="info-title">For Developers</h4>
+                <p>The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="info">
+                <div class="icon">
+                  <i class="material-icons">format_paint</i>
+                </div>
+                <h4 class="info-title">For Designers</h4>
+                <p>The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="info">
+                <div class="icon">
+                  <i class="material-icons">dashboard</i>
+                </div>
+                <h4 class="info-title">Bootstrap Grid</h4>
+                <p>The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="info">
+                <div class="icon">
+                  <i class="material-icons">view_carousel</i>
+                </div>
+                <h4 class="info-title">Example Pages Included</h4>
+                <p>The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="info">
+                <div class="icon">
+                  <i class="material-icons">access_time</i>
+                </div>
+                <h4 class="info-title">Save Time</h4>
+                <p>The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="info">
+                <div class="icon">
+                  <i class="material-icons">attach_money</i>
+                </div>
+                <h4 class="info-title">Save Money</h4>
+                <p>The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--     *********    END FEATURES 5      *********      -->
+    </div>
+
+@* <div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('/assets/img/bg0.jpg');">
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
@@ -20,5 +244,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> *@
 

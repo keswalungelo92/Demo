@@ -20,7 +20,7 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 {
 	/// <summary>Home</summary>
 	[PublishedModel("home")]
-	public partial class Home : PublishedContentModel, IContent
+	public partial class Home : PublishedContentModel, IContent, IModules
 	{
 		// helpers
 #pragma warning disable 0109 // new is redundant
@@ -50,19 +50,11 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		// properties
 
 		///<summary>
-		/// Background Image
+		/// Page Modules
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("backgroundImage")]
-		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops BackgroundImage => global::Umbraco.Cms.Web.Common.PublishedModels.Content.GetBackgroundImage(this, _publishedValueFallback);
-
-		///<summary>
-		/// Title
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("title")]
-		public virtual string Title => global::Umbraco.Cms.Web.Common.PublishedModels.Content.GetTitle(this, _publishedValueFallback);
+		[ImplementPropertyType("pageModules")]
+		public virtual global::Newtonsoft.Json.Linq.JToken PageModules => global::Umbraco.Cms.Web.Common.PublishedModels.Modules.GetPageModules(this, _publishedValueFallback);
 	}
 }

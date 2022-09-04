@@ -1,0 +1,8 @@
+{
+  "id": "b9dd568c-b85b-4721-8074-d0e1cf174183",
+  "name": "subprovince_northerncape",
+  "settings": {
+    "TextFile": "PreValueTextFiles/aa90c280-ca0a-4903-89fe-f902f87db70a/subprovince_northerncape.txt"
+  },
+  "fieldPreValueSourceTypeId": "35c2053e-cbf7-4793-b27c-6e97b7671a2d"
+}

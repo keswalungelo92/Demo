@@ -1,0 +1,39 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.IconInfoElement>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+
+
+<div class="features-1">
+<div class="row">
+  <div class="col-md-8 ml-auto mr-auto">
+    
+    <h2 class="title">@Model.Heading</h2>
+    <h5 class="description">@Model.Paragraph</h5>
+
+  </div>
+</div>
+<div class="row">
+    @if (@Model.IconInfo.Any())
+    {
+      @foreach (var item in Model.IconInfo)
+      {
+        <div class="col-md-4">
+          <div class="info">
+            <div class="icon @item.Icon">
+              <i class="material-icons">@item.Title</i>
+            </div>
+            <h4 class="info-title">@item.Subtitle</h4>
+            <p>@item.BodyText</p>
+          </div>
+        </div>
+      }
+    }
+  
+</div>
+</div>
+
+    

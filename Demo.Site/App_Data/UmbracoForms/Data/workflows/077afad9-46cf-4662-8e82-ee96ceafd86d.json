@@ -1,0 +1,11 @@
+{
+  "id": "077afad9-46cf-4662-8e82-ee96ceafd86d",
+  "name": "Magnitude post",
+  "form": "f7183ba0-25df-479d-87fb-c7f38a917389",
+  "active": true,
+  "includeSensitiveData": "True",
+  "workflowTypeId": "ccbeb0d5-adaa-4729-8b4c-4bb439dc0202",
+  "executesOn": "Submitted",
+  "settings": {},
+  "sortOrder": 0
+}

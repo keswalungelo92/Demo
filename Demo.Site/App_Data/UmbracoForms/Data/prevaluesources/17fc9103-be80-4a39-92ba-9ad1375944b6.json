@@ -1,0 +1,8 @@
+{
+  "id": "17fc9103-be80-4a39-92ba-9ad1375944b6",
+  "name": "Countries",
+  "settings": {
+    "TextFile": "PreValueTextFiles/acb0ac1a-fe7c-4644-946a-404ca47abcd6/countries.txt"
+  },
+  "fieldPreValueSourceTypeId": "35c2053e-cbf7-4793-b27c-6e97b7671a2d"
+}

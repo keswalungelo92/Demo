@@ -1,0 +1,8 @@
+{
+  "id": "4e816a4f-408c-47af-bf63-6c7316e295b4",
+  "name": "subprovince_freestate",
+  "settings": {
+    "TextFile": "PreValueTextFiles/ca34ea40-f8e1-4de4-bef3-05c42ba7a9b1/subprovince_freestate.txt"
+  },
+  "fieldPreValueSourceTypeId": "35c2053e-cbf7-4793-b27c-6e97b7671a2d"
+}

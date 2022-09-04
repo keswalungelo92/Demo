@@ -1,0 +1,9 @@
+Free State - Vrystaat
+Gauteng - Gauteng
+Western Cape - Wes-Kaap
+Eastern Cape - Oos-Kaap
+Morthern Cape - Noord-Kaap
+Limpopo - Limpopo
+Kwazulu-Natal - Kwazulu-Natal
+North West - Noordwes
+Mpumalanga - Mpumalanga

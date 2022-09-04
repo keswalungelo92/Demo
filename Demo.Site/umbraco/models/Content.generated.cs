@@ -22,15 +22,6 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 	/// <summary>Content</summary>
 	public partial interface IContent : IPublishedElement
 	{
-		/// <summary>Background Image</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		global::Umbraco.Cms.Core.Models.MediaWithCrops BackgroundImage { get; }
-
-		/// <summary>Title</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		string Title { get; }
 	}
 
 	/// <summary>Content</summary>
@@ -63,31 +54,5 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		}
 
 		// properties
-
-		///<summary>
-		/// Background Image
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("backgroundImage")]
-		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops BackgroundImage => GetBackgroundImage(this, _publishedValueFallback);
-
-		/// <summary>Static getter for Background Image</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
-		[return: global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		public static global::Umbraco.Cms.Core.Models.MediaWithCrops GetBackgroundImage(IContent that, IPublishedValueFallback publishedValueFallback) => that.Value<global::Umbraco.Cms.Core.Models.MediaWithCrops>(publishedValueFallback, "backgroundImage");
-
-		///<summary>
-		/// Title
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("title")]
-		public virtual string Title => GetTitle(this, _publishedValueFallback);
-
-		/// <summary>Static getter for Title</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "10.1.0+3972538")]
-		[return: global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		public static string GetTitle(IContent that, IPublishedValueFallback publishedValueFallback) => that.Value<string>(publishedValueFallback, "title");
 	}
 }

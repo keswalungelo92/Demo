@@ -1,0 +1,20 @@
+{
+  "id": "9682ff57-52a1-4a33-8561-f3563a5b71bb",
+  "name": "Emailer",
+  "form": "49fd54cf-5fcb-45b8-bb3d-22df5a3e05cb",
+  "active": true,
+  "includeSensitiveData": "True",
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": "",
+    "Email": "quintin@league.co.za",
+    "CcEmail": "coetzee.strydom@league.co.za",
+    "BccEmail": "sudhir.hira@league.co.za",
+    "SenderEmail": "karanbeef@michelin.co.za",
+    "ReplyToEmail": "",
+    "Subject": "The Form '{form_name}' was submitted"
+  },
+  "sortOrder": 0
+}
